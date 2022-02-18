@@ -29,7 +29,6 @@
   font-size: 1.3rem;
   font-family: var(--font--sec);
   display: flex;
-  flex-direction: column;
   font-weight: 600;
 }
 
@@ -70,10 +69,34 @@
   transform: translateY(-0.2rem);
 }
 
+.javascript {
+  color: #fdb72b;
+}
+
+.reactjs {
+  color: #48bfe3;
+}
+
+.nodejs {
+  color: #38b000;
+}
+
+.html {
+  color: #fa6d4a;
+}
+
+.css {
+  color: #057aee;
+}
+
+.sass {
+  color: #ff477e;
+}
+
 @keyframes showcaseSpan {
   0% {
     opacity: 0;
-    transform: translateX(-20px) scale(0.9);
+    transform: translateX(-20px) scale(0.8);
   }
   70% {
     opacity: 1;

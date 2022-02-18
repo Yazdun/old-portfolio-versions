@@ -37,18 +37,18 @@ showcaseSocials.forEach((social) => {
 // timer
 
 const showcaseSkills = [
-  '<i class="fa-brands fa-js-square"></i>javascript',
-  '<i class="fa-brands fa-react"></i>react js',
-  '<i class="fa-brands fa-node-js"></i> node js',
-  '<i class="fa-brands fa-html5"></i> html',
-  '<i class="fa-brands fa-css3"></i> css',
-  '<i class="fa-brands fa-sass"></i> sass',
+  '<span class="current javascript"><i class="fa-brands fa-js-square"></i>javascript</span>',
+  '<span class="current reactjs"><i class="fa-brands fa-react"></i>react js</span>',
+  '<span class="current nodejs"><i class="fa-brands fa-node-js"></i> node js</span>',
+  '<span class="current html"><i class="fa-brands fa-html5"></i> html</span>',
+  '<span class="current css"><i class="fa-brands fa-css3"></i> css</span>',
+  '<span class="current sass"><i class="fa-brands fa-sass"></i> sass</span>',
 ];
 
 let prevIndex = 0;
 let currentIndex = 1;
 
-const current = document.getElementById("current");
+const current = document.getElementById("skills");
 current.innerHTML = showcaseSkills[0];
 
 const interval = setInterval(function () {
