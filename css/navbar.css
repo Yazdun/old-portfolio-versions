@@ -1,0 +1,33 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: var(--clr--bg--transparent);
+  z-index: 100;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--max--width);
+  margin: auto;
+  padding: 1rem var(--rem--main);
+  font-size: 1.3rem;
+}
+
+.navbar ul li span {
+  display: none;
+  text-transform: capitalize;
+}
+
+@media (min-width: 640px) {
+  .navbar {
+    top: 0;
+    bottom: auto;
+  }
+
+  .navbar ul li span {
+    display: inline;
+  }
+}

@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./main.css" />
-    <link rel="icon" href="./matrix_code_logo.ico" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -13,103 +11,27 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/variable.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/utils.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/showcase.css" />
     <title>Yazdun</title>
   </head>
   <body>
-    <noscript>you must enable javascript to view this website</noscript>
-    <main class="main" id="main">
-      <img src="./assets/1.svg" alt="badass rhino programmer" />
-      <div class="container">
-        <h1>y<span class="bug1">a</span>zd<span class="bug2">u</span>n</h1>
-        <p>junior web developer / javascript, react.Js, node.Js, express.Js</p>
-        <div class="buttons">
-          <a class="btn" href="https://github.com/Yazdun" target="_blank">
-            <i class="fa-brands fa-github"></i>
-            github</a
-          >
-          <a
-            class="btn"
-            href="https://www.frontendmentor.io/profile/Yazdun"
-            target="_blank"
-          >
-            <i class="fa-solid fa-code"></i>
-            frontend mentor</a
-          >
-          <a
-            class="btn"
-            href="https://www.codewars.com/users/Yazdun"
-            target="_blank"
-          >
-            <i class="fa-solid fa-code"></i>
-            codewars
-          </a>
-        </div>
-      </div>
-    </main>
-    <section class="container projects_wrapper">
-      <div class="hero">
-        <img
-          src="./assets/2.svg"
-          class="clapping_illustration"
-          alt="happy rhino clapping for my projects"
-        />
-        <h2>
-          <i class="fa-solid fa-laptop-code"></i>
-          my pr<span class="bug1">o</span>jects
-        </h2>
-      </div>
-      <div class="projects" id="projects"></div>
-    </section>
-
-    <section class="certificates_wrapper">
-      <div class="container">
-        <div class="hero">
-          <h2>
-            <i class="fa-solid fa-certificate"></i>
-            my ce<span class="bug2">r</span>tificates
-          </h2>
-        </div>
-        <div id="certificates" class="certificates"></div>
-      </div>
-    </section>
-
-    <section class="container">
-      <div class="hero">
-        <img src="./assets/3.svg" alt="rhino wants to hang out with you" />
-        <h2>
-          w<span class="bug2">an</span>na get in tou<span class="bug1">c</span>h
-          ?
-        </h2>
-      </div>
-
-      <div class="contact">
-        <a href="https://t.me/yazdun" target="_blank">
-          <i class="fa-brands fa-telegram"></i>
-          telegram</a
-        >
-        <a href="https://wa.me/989201378001" target="_blank">
-          <i class="fa-brands fa-whatsapp"></i>
-          WhatsApp</a
-        >
-        <a href="https://twitter.com/Yazdun" target="_blank">
-          <i class="fa-brands fa-twitter"></i>
-          twitter</a
-        >
-      </div>
-    </section>
-
-    <footer class="container footer">
+    <nav class="navbar">
+      <ul id="navigation"></ul>
+    </nav>
+    <section class="showcase">
+      <img src="./assets/fist_1.png" alt="awesome 3d fist" />
+      <h2>yazdun</h2>
       <p>
-        <span id="copyright"></span> /
-        <span>
-          <a href="https://github.com/Yazdun/portfolio" target="_blank"
-            >❤️ source code</a
-          ></span
-        >
+        i build awesome stuff with
+        <span class="current" id="current"></span>
       </p>
-    </footer>
-    <script src="./js/projects.js"></script>
-    <script src="./js/certificates.js"></script>
-    <script src="./js/app.js"></script>
+      <ul class="showcase__socials" id="showcaseSocials"></ul>
+    </section>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/showcase.js"></script>
   </body>
 </html>

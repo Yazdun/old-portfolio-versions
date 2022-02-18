@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+:root {
+  --clr--bg--main: #f8f8ff;
+  --clr--bg--transparent: rgba(248, 248, 255, 0.97);
+  --clr--bg--sec: #edf2fb;
+
+  --clr--txt--main: hsl(218, 44%, 22%);
+  --clr--txt--sec: hsl(220, 15%, 55%);
+
+  --clr--active: #06f;
+  --clr--danger: #ed2c49;
+
+  --font--main: "Open Sans", sans-serif;
+  --font--sec: "Raleway", sans-serif;
+  --font--cursive: "Creepster", cursive;
+
+  --rem--main: 2rem;
+  --rem--sec: 1rem;
+
+  --max--width: 64rem;
+
+  --border--radius: 0.5rem;
+
+  --shadow--1: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
