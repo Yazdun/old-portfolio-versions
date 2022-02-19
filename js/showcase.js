@@ -15,9 +15,9 @@ const showcaseSocials = [
     url: "https://www.codewars.com/users/Yazdun",
   },
   {
-    icon: "./assets/linkedin_logo.svg",
-    title: "linkedIn",
-    url: "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGyCwvTDrAo2QAAAX8NrjEQsuhRI0zkmHU03zwgapfy5CdcfMoTCviwVYTCePhKyR9snAw2Gw2gwWscqmCM-ejEofVtuKXUHXJaRx2XBUUevbRowAvZykYBkrNw5H0pJEj1f94=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fyazdun-fathali-330038232%2F",
+    icon: "./assets/codepen_logo.svg",
+    title: "codepen",
+    url: "https://codepen.io/yazdun",
   },
 ];
 
