@@ -14,6 +14,7 @@
     <link rel="icon" href="./logo.ico" />
     <link rel="stylesheet" href="./css/variable.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/loading.css" />
     <link rel="stylesheet" href="./css/utils.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/showcase.css" />
@@ -24,50 +25,66 @@
     <title>Yazdun</title>
   </head>
   <body>
-    <nav class="navbar">
-      <ul id="navigation"></ul>
-    </nav>
-    <section class="showcase" id="showcase">
-      <img src="./assets/fist_1.png" alt="illustration of a 3d fist" />
-      <h2>yazdun</h2>
-      <p>i build awesome stuff with</p>
-      <p id="skills"></p>
-      <ul class="showcase__socials" id="showcaseSocials"></ul>
-    </section>
-    <section class="projects" id="projects">
-      <h2 class="section__title">
-        <i class="fa-solid fa-terminal"></i>projects
-      </h2>
-      <div class="container projects__grid fade-in" id="projectsGrid"></div>
-    </section>
+    <div class="loading" id="loading"><h1>loading</h1></div>
+    <main class="display__none" id="main">
+      <nav class="navbar">
+        <ul id="navigation"></ul>
+      </nav>
+      <section class="showcase" id="showcase">
+        <img src="./assets/fist_1.png" alt="illustration of a 3d fist" />
+        <h2>yazdun</h2>
+        <p>i build awesome stuff with</p>
+        <p id="skills"></p>
+        <ul class="showcase__socials" id="showcaseSocials"></ul>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="section__title">
+          <i class="fa-solid fa-terminal"></i>projects
+        </h2>
+        <div class="container projects__grid fade-in" id="projectsGrid"></div>
+      </section>
 
-    <section class="certificates" id="certificates">
-      <h2 class="section__title">
-        <i class="fa-solid fa-certificate"></i>certificates
-      </h2>
-      <div class="certificates__grid fade-in" id="certificatesGrid"></div>
-    </section>
+      <section class="certificates" id="certificates">
+        <h2 class="section__title">
+          <i class="fa-solid fa-certificate"></i>certificates
+        </h2>
+        <div class="certificates__grid fade-in" id="certificatesGrid"></div>
+      </section>
 
-    <section class="contacts fade-in" id="contact">
-      <img src="./assets/fist_2.png" class="contact__illustration" alt="">
-      <div class="container">
-        <ul>
-          <li><h2 class="section__title">wanna get in touch ?</h2></li>
-          <li>
-            <a href="https://t.me/yazdun" target="_blank" title="telegram"><i class="fa-brands fa-telegram"></i>telegram</a>
-          </li>
-          <li>
-            <a href="https://wa.me/989201378001" target="_blank" title="whatsapp"><i class="fa-brands fa-whatsapp-square"></i></i>whatsapp</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/Yazdun" target="_blank" title="twitter"><i class="fa-brands fa-twitter"></i>twitter</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <footer>
-      <p id="footer"></p>
-    </footer>
+      <section class="contacts fade-in" id="contact">
+        <img src="./assets/fist_2.png" class="contact__illustration" alt="" />
+        <div class="container">
+          <ul>
+            <li><h2 class="section__title">wanna get in touch ?</h2></li>
+            <li>
+              <a href="https://t.me/yazdun" target="_blank" title="telegram"
+                ><i class="fa-brands fa-telegram"></i>telegram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://wa.me/989201378001"
+                target="_blank"
+                title="whatsapp"
+                ><i class="fa-brands fa-whatsapp-square"></i>whatsapp</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/Yazdun"
+                target="_blank"
+                title="twitter"
+                ><i class="fa-brands fa-twitter"></i>twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer>
+        <p id="footer"></p>
+      </footer>
+    </main>
+    <script src="./js/app.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./js/showcase.js"></script>
     <script src="./js/projects.js"></script>
