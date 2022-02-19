@@ -11,6 +11,7 @@
 
   --clr--active: #06f;
   --clr--danger: #ed2c49;
+  --clr--success: #00ff95;
 
   --font--main: "Open Sans", sans-serif;
   --font--sec: "Raleway", sans-serif;
@@ -21,8 +22,11 @@
 
   --max--width: 64rem;
 
+  --clr--border--main: #d1e5f8;
+
   --border--radius: 0.5rem;
 
-  --shadow--1: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
-    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  --shadow--1: rgba(162, 205, 243, 0.48) 6px 2px 16px 0px,
+    rgba(224, 245, 250, 0.8) -6px -2px 16px 0px;
+  --shadow--2: rgba(146, 215, 255, 0.15) 2.4px 2.4px 3.2px;
 }

@@ -16,20 +16,38 @@
     <link rel="stylesheet" href="./css/utils.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/showcase.css" />
+    <link rel="stylesheet" href="./css/project.css" />
+    <link rel="stylesheet" href="./css/certificates.css" />
+    <link rel="stylesheet" href="./css/illustration.css" />
     <title>Yazdun</title>
   </head>
   <body>
     <nav class="navbar">
       <ul id="navigation"></ul>
     </nav>
-    <section class="showcase">
-      <img src="./assets/fist_1.png" alt="awesome 3d fist" />
+    <section class="showcase" id="showcase">
+      <img src="./assets/fist_1.png" alt="illustration of a 3d fist" />
       <h2>yazdun</h2>
       <p>i build awesome stuff with</p>
       <p id="skills"></p>
       <ul class="showcase__socials" id="showcaseSocials"></ul>
     </section>
+    <section class="projects" id="projects">
+      <h2 class="section__title">
+        <i class="fa-solid fa-terminal"></i>projects
+      </h2>
+      <div class="container projects__grid" id="projectsGrid"></div>
+    </section>
+
+    <section class="certificates" id="certificates">
+      <h2 class="section__title">
+        <i class="fa-solid fa-certificate"></i>certificates
+      </h2>
+      <div class="certificates__grid" id="certificatesGrid"></div>
+    </section>
     <script src="./js/navbar.js"></script>
     <script src="./js/showcase.js"></script>
+    <script src="./js/projects.js"></script>
+    <script src="./js/certificates.js"></script>
   </body>
 </html>

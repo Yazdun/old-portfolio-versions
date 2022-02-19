@@ -1,0 +1,94 @@
+.projects {
+  background-color: var(--clr--bg--sec);
+  position: relative;
+}
+
+.projects .container {
+  padding: 0;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--rem--main);
+  text-align: center;
+  border-top: 1px solid var(--clr--border--main);
+  background-color: var(--clr--bg--sec);
+  z-index: 1;
+}
+
+.project i {
+  font-size: 5rem;
+}
+
+.project__links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 7rem;
+}
+
+.project__links a i {
+  font-size: 1.5rem;
+}
+
+.project__links a {
+  transition: 0.3s;
+}
+
+.project__links a:hover {
+  transform: scale(1.3);
+}
+
+.project__title {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: var(--rem--sec);
+  font-family: var(--font--sec);
+}
+
+.projects .fa-react {
+  animation: 4s react linear infinite;
+}
+
+@media (min-width: 700px) {
+  .projects h2 {
+    padding-bottom: 0;
+  }
+
+  .projects .container {
+    padding: var(--rem--main);
+  }
+
+  .project {
+    position: relative;
+    border: none;
+    box-shadow: var(--shadow--1);
+    padding: 2rem;
+    padding-bottom: 4rem;
+
+    border-radius: var(--border--radius);
+  }
+  .projects__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  .project__links {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+  }
+}
+
+@keyframes react {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

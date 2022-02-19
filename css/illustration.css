@@ -1,0 +1,17 @@
+.illustration__hand__one {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5rem;
+  margin: auto;
+  transform: rotate(15deg);
+  width: 100%;
+  max-width: 10rem;
+  overflow: hidden;
+}
+
+.hand__1 {
+  position: relative;
+  height: 11.5rem;
+}

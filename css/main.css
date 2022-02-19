@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font--main);
   background-color: var(--clr--bg--main);
@@ -31,4 +35,8 @@ ul {
 
 p {
   line-height: 2rem;
+}
+
+h2 {
+  font-family: var(--font--sec);
 }

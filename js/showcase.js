@@ -6,7 +6,7 @@ const showcaseSocials = [
   },
   {
     icon: "./assets/fem_logo.svg",
-    title: "frontend mentor",
+    title: "frontend-mentor",
     url: "https://www.frontendmentor.io/profile/Yazdun",
   },
   {
