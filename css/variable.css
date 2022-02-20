@@ -28,5 +28,6 @@
 
   --shadow--1: rgba(162, 205, 243, 0.48) 6px 2px 16px 0px,
     rgba(224, 245, 250, 0.8) -6px -2px 16px 0px;
-  --shadow--2: rgba(146, 215, 255, 0.15) 2.4px 2.4px 3.2px;
+  /* --shadow--2: rgba(146, 215, 255, 0.15) 2.4px 2.4px 3.2px; */
+  --shadow--2: 14px 14px 20px #d7e7f7, -14px -14px 20px #ffffff;
 }
