@@ -50,6 +50,7 @@
   background-color: var(--clr--bg--sec);
   padding: 1rem;
   border-radius: var(--border--radius);
+  box-shadow: var(--shadow--2);
 }
 
 .showcase ul img {
